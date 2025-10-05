@@ -1,0 +1,123 @@
+2025-10-05 00:25:43,743 - src.database.init - INFO - Starting database initialization...
+2025-10-05 00:25:43,782 - src.database.models - INFO - Database tables initialized successfully
+2025-10-05 00:25:43,885 - src.database.models - INFO - Database indexes created successfully
+2025-10-05 00:25:43,896 - src.database.init - INFO - Running migration: add_document_indexes
+2025-10-05 00:25:43,909 - src.database.init - INFO - Migration add_document_indexes completed
+2025-10-05 00:25:43,909 - src.database.init - INFO - Running migration: add_summary_tags_support
+2025-10-05 00:25:43,931 - src.database.init - INFO - Migration add_summary_tags_support completed
+2025-10-05 00:25:43,931 - src.database.init - INFO - Running migration: add_processing_performance_fields
+2025-10-05 00:25:43,952 - src.database.init - INFO - Migration add_processing_performance_fields completed
+2025-10-05 00:25:43,973 - src.database.init - INFO - Default data created successfully
+2025-10-05 00:25:43,973 - src.database.init - ERROR - Database validation failed: unsupported operand type(s) for -: 'list' and 'set'
+2025-10-05 00:25:43,973 - src.database.init - ERROR - Database initialization failed: unsupported operand type(s) for -: 'list' and 'set'
+2025-10-05 00:27:15,954 - src.database.init - INFO - Starting database initialization...
+2025-10-05 00:27:15,955 - src.database.models - INFO - Database tables initialized successfully
+2025-10-05 00:27:15,955 - src.database.models - INFO - Database indexes created successfully
+2025-10-05 00:27:15,958 - src.database.init - INFO - Default data created successfully
+2025-10-05 00:27:15,958 - src.database.init - INFO - Database validation completed successfully
+2025-10-05 00:27:15,958 - src.database.init - INFO - Database initialization completed successfully
+2025-10-05 00:29:22,129 - src.database.models - INFO - Database tables initialized successfully
+2025-10-05 00:29:22,129 - src.database.models - INFO - Database indexes created successfully
+2025-10-05 00:29:22,153 - src.database.models - INFO - Saved document test.pdf with ID 1
+2025-10-05 00:29:22,165 - src.database.models - INFO - Saved summary for document 1 with ID 1
+2025-10-05 00:29:22,179 - src.database.models - INFO - Saved processing history for document 1 with ID 1
+2025-10-05 00:31:35,968 - src.database.models - INFO - Database tables initialized successfully
+2025-10-05 00:31:35,971 - src.database.models - INFO - Database indexes created successfully
+2025-10-05 00:46:14,156 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:46:14,206 - database.models - INFO - Database tables initialized successfully
+2025-10-05 00:46:14,208 - database.models - INFO - Database indexes created successfully
+2025-10-05 00:47:04,531 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:48:04,788 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:48:15,315 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:48:16,776 - database.models - INFO - Saved document UU Nomor 10 Tahun 1998.pdf with ID 2
+2025-10-05 00:49:49,787 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:49:54,533 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:49:56,561 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:49:56,739 - database.models - ERROR - Failed to save document: UNIQUE constraint failed: pdf_documents.file_hash
+2025-10-05 00:49:56,747 - pdf_summarizer - ERROR - PDF processing error: UNIQUE constraint failed: pdf_documents.file_hash
+2025-10-05 00:50:04,858 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:50:13,330 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:50:13,340 - pdf_summarizer - ERROR - Application startup error: 'Config' object has no attribute 'files'
+2025-10-05 00:50:18,096 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:50:20,523 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:50:25,910 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:50:28,397 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:50:28,577 - database.models - ERROR - Failed to save document: UNIQUE constraint failed: pdf_documents.file_hash
+2025-10-05 00:50:28,578 - pdf_summarizer - ERROR - PDF processing error: UNIQUE constraint failed: pdf_documents.file_hash
+2025-10-05 00:53:18,368 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:53:18,407 - database.models - INFO - Database tables initialized successfully
+2025-10-05 00:53:18,409 - database.models - INFO - Database indexes created successfully
+2025-10-05 00:53:33,812 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:53:35,776 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:53:36,432 - database.models - INFO - Updated existing document with ID: 2
+2025-10-05 00:54:46,282 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:54:46,358 - database.models - INFO - Database tables initialized successfully
+2025-10-05 00:54:46,360 - database.models - INFO - Database indexes created successfully
+2025-10-05 00:55:14,151 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:55:15,675 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:55:17,124 - database.models - INFO - Updated existing document with ID: 2
+2025-10-05 00:56:40,719 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:56:40,774 - database.models - INFO - Database tables initialized successfully
+2025-10-05 00:56:40,776 - database.models - INFO - Database indexes created successfully
+2025-10-05 00:56:45,858 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:56:47,515 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:56:48,988 - database.models - INFO - Updated existing document with ID: 2
+2025-10-05 00:58:21,938 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:58:21,997 - database.models - INFO - Database tables initialized successfully
+2025-10-05 00:58:21,999 - database.models - INFO - Database indexes created successfully
+2025-10-05 00:58:26,279 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:58:28,106 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:58:29,526 - database.models - INFO - Updated existing document with ID: 2
+2025-10-05 00:59:31,320 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:59:31,368 - database.models - INFO - Database tables initialized successfully
+2025-10-05 00:59:31,368 - database.models - INFO - Database indexes created successfully
+2025-10-05 00:59:36,608 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:59:38,281 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 00:59:39,691 - database.models - INFO - Updated existing document with ID: 2
+2025-10-05 00:59:45,458 - database.models - INFO - Saved summary for document 2 with ID 2
+2025-10-05 01:00:41,882 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:00:41,944 - pdf_summarizer - ERROR - Export error: attempted relative import beyond top-level package
+2025-10-05 01:00:57,332 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:00:57,370 - pdf_summarizer - ERROR - Export error: attempted relative import beyond top-level package
+2025-10-05 01:02:43,437 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:02:43,478 - database.models - INFO - Database tables initialized successfully
+2025-10-05 01:02:43,481 - database.models - INFO - Database indexes created successfully
+2025-10-05 01:02:53,957 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:02:55,935 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:02:57,321 - database.models - INFO - Updated existing document with ID: 2
+2025-10-05 01:03:14,766 - database.models - INFO - Saved summary for document 2 with ID 3
+2025-10-05 01:03:21,501 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:03:21,538 - pdf_summarizer - ERROR - Export error: attempted relative import beyond top-level package
+2025-10-05 01:03:22,489 - src.utils.exporters - INFO - PDF export not fully implemented, creating text file instead
+2025-10-05 01:03:32,134 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:03:32,167 - pdf_summarizer - ERROR - Export error: attempted relative import beyond top-level package
+2025-10-05 01:04:05,480 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:04:11,866 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:04:13,680 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:04:13,852 - database.models - INFO - Updated existing document with ID: 2
+2025-10-05 01:04:18,785 - database.models - INFO - Saved summary for document 2 with ID 4
+2025-10-05 01:04:24,074 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:04:24,122 - pdf_summarizer - ERROR - Export error: attempted relative import beyond top-level package
+2025-10-05 01:04:25,813 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:04:25,853 - pdf_summarizer - ERROR - Export error: attempted relative import beyond top-level package
+2025-10-05 01:06:50,337 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:06:50,387 - database.models - INFO - Database tables initialized successfully
+2025-10-05 01:06:50,387 - database.models - INFO - Database indexes created successfully
+2025-10-05 01:07:27,628 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:07:27,635 - database.models - INFO - Database tables initialized successfully
+2025-10-05 01:07:27,637 - database.models - INFO - Database indexes created successfully
+2025-10-05 01:07:30,407 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:07:34,473 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:07:34,483 - database.models - INFO - Database tables initialized successfully
+2025-10-05 01:07:34,483 - database.models - INFO - Database indexes created successfully
+2025-10-05 01:07:41,896 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:07:44,835 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:08:20,406 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:08:22,463 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:08:23,761 - database.models - INFO - Updated existing document with ID: 2
+2025-10-05 01:08:25,452 - database.models - INFO - Saved summary for document 2 with ID 5
+2025-10-05 01:08:43,556 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:08:48,161 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:08:49,883 - pdf_summarizer - INFO - Starting PDF Summarizer AI Application
+2025-10-05 01:08:50,005 - database.models - INFO - Updated existing document with ID: 2
+2025-10-05 01:08:51,848 - database.models - INFO - Saved summary for document 2 with ID 6
